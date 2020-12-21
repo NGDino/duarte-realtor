@@ -1,0 +1,50 @@
+@media only screen and (max-width: 600px){
+    .parallax-container{
+        width: 100%;
+        height: auto;
+        min-height: 250px;
+        
+    }
+    .box-text{
+        font-size: 24px;
+    }
+    .box-text2{
+        font-size: 18px;
+    }
+    
+}
+
+nav{
+    height: 65px;
+}
+
+.brand-logo{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.title-box{
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Cinzel', serif;
+}
+
+.about{
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+body{
+    background-color: black;
+}
