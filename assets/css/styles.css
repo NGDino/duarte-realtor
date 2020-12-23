@@ -12,7 +12,17 @@
         font-size: 18px;
     }
     
+    
 }
+
+/* @media only screen and (min-width: 600px){
+    #address{
+        font-size: 16px;
+        font-weight: 100;
+        background-color: rgba(0,0,0, 0.4);
+        text-align: center;
+    }
+} */
 
 nav{
     height: 65px;
@@ -112,11 +122,10 @@ body{
 
 
 
-  
 * {
     box-sizing: border-box;
 }
-    #nav {
+    /* #nav {
         height: 70px;
     line-height: 70px;
     background-color: rgba(88, 86, 86, 0.493);
@@ -124,12 +133,12 @@ body{
 }
 nav{
     margin-bottom: 0;
-}
+} */
 
-.header{
+/* .header{
     margin-top: 15px;
     margin-bottom: 0;
-}
+} */
 
 #address{
     font-size: 30px;
