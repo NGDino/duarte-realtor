@@ -23,6 +23,15 @@ nav{
     margin-top: 10px;
 }
 
+.contact-main{
+    background-image: url('../images/home2.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+#contact-panel{
+    background-color: rgba(0,0,0, 0.6)
+}
 .title-box{
     background-color: rgb(0,0,0); /* Fallback color */
     background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
