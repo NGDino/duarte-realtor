@@ -51,8 +51,65 @@
 
         
 
-    <section>
+    <section >
+        <div class="container">
+            <div class="card-panel grey darken-4  ">
 
+                <form class="col s12" onsubmit="emailMessage()">
+    
+                    <h2 class="white-text">Contact Me</h2>
+        
+                    <div class="row">
+    
+                        <div class="input-field col s6">
+    
+                            <input id="first_name" type="text" class="validate ">
+                            <label class="white-text" for="first_name">First Name</label>
+    
+                        </div>
+        
+                        <div class="input-field col s6">
+    
+                            <input id="last_name" type="text" class="validate">
+                            <label class="white-text" for="last_name">Last Name</label>
+    
+                        </div>
+    
+                    </div>
+        
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <input id="email" type="email" class="validate">
+                            <label class="white-text" for="email">Email</label>
+                        </div>
+                    </div>
+        
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <select>
+                                <option class="white-text" value="" disabled selected>I am looking to...</option>
+                                <option value="1">Buy</option>
+                                <option value="2">Sell</option>
+                                <option value="3">Other</option>
+                            </select>
+                            <label class="white-text">How can I help you?</label>
+                        </div>
+                    </div>
+    
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <textarea id="textarea1" class="materialize-textarea"></textarea>
+                            <label class="white-text" for="textarea1">Message</label>
+                        </div>
+                    </div>
+        
+                    <button type="submit" class="btn">Submit</button>
+    
+                </form>
+        
+            </div>
+        </div>
+        
     </section>
     
 
