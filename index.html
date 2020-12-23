@@ -15,13 +15,19 @@
 
     <title>Duarte Family Real Estate</title>
 </head>
-<body>
+<body onload="getReviews()">
     <div class="navbar-fixed">
         <nav class="grey darken-4">
             <div class="nav-wrapper " id="nav-pad">
-                <a href="/index.html" class="brand-logo" "><img src="./assets/images/intero-logo.png"/></a>
+                <a href="index.html" class="brand-logo" "><img src="./assets/images/intero-logo.png"/></a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
                 <ul id="nav-mobile" class="right hide-on-med-and-down">
-                    <li><a href="sass.html">About</a></li>
+                    <li><a href="index.html">About</a></li>
+                    <li><a href="./buy-sell.html">Buy/Sell</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                </ul>
+                <ul class="sidenav" id="mobile-demo">
+                    <li><a href="index.html">About</a></li>
                     <li><a href="./buy-sell.html">Buy/Sell</a></li>
                     <li><a href="./contact.html">Contact</a></li>
                 </ul>
@@ -48,14 +54,19 @@
                         <img src="./assets/images/david.jpg" alt="Davids Duarte Bay Area realtor in Livermore, CA" height="200px" class="circle z-depth-3">
                         <h3 class="">David Duarte</h3>
                         <h6>CA DRE# 02059641</h6>
-                        <a href="tel:925-699-7155"><i class="material-icons">call</i> <span id="phone-number">(925)699-7155</span></a>
-                        <a href="mailto:"><i class="material-icons">email</i> <span id="phone-number">dduarte@intero.com</span></a>
+                        
+                        <a class="valign-wrapper" href="tel:925-699-7155"><i class="material-icons">call</i> <span id="phone-number">(925)699-7155</span></a>
+                        <a class="valign-wrapper" href="mailto:"><i class="material-icons">email</i> <span id="phone-number">dduarte@intero.com</span></a>
                     </div>
                     <div class="col s12 m6 l6 ">
                         
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta reprehenderit consectetur assumenda deserunt
                             vitae itaque facere voluptatem nostrum, ratione neque et labore praesentium beatae dolor, 
-                            cupiditate quas. At, quasi quis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit tenetur atque commodi eaque repellat doloremque rem sit! Quam ab perspiciatis suscipit ratione quos, vel, omnis accusamus dolore, veritatis molestias officiis!</p>
+                            cupiditate quas. At, quasi quis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit tenetur atque 
+                            modi eaque repellat doloremque rem sit! Quam ab perspiciatis suscipit ratione quos, vel, omnis accusamus dolore, 
+                            veritatis molestias officiis!
+                        </p>
+     
                     </div>
                 <!-- </div> -->
                 
@@ -75,21 +86,9 @@
         </div>
     </section>
     <section >
-        <div class="container ">
-            <div class="carousel carousel-slider center">
+        <div class="container " >
+            <div class="carousel carousel-slider center" id="review-container">
                 
-                <div class="carousel-item white-text valign-wrapper center" href="">
-                    <h2>"Working with David was an absolute pleasure he is a scholar and a gentleman"</h2>
-                    
-                </div>
-                <div class="carousel-item white-text valign-wrapper center" href="">
-                    <h2>"As a real estate agent, David Fucks"</h2>
-                    
-                </div>
-                <div class="carousel-item white-text valign-wrapper" href="">
-                    <h2>"Seriously this dude is good!"</h2>
-                    
-                </div>
             
             </div>
         </div>
@@ -100,24 +99,24 @@
             <div class="row">
                 <div class="col l6 s12">
                 <h5 class="white-text">Footer Content</h5>
-                <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+                <p class="grey-text text-lighten-4">Please let me know what you would like to see here.</p>
                 </div>
                 <div class="col l4 offset-l2 s12">
                 <h5 class="white-text">Links</h5>
                 <ul>
-                    <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
-                    <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
-                    <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
-                    <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+                    <li><a class="grey-text text-lighten-3" href="https://www.zillow.com/profile/dduarte0/">Zillow Profile</a></li>
+                    <li><a class="grey-text text-lighten-3" href="https://www.realtor.com/realestateagents/david-duarte_milpitas_ca_4152575_822164397">Realtor Profile</a></li>
+                    <li><a class="grey-text text-lighten-3" href="https://www.redfin.com/real-estate-agents/david-duarte">RedFin Profile</a></li>
                 </ul>
+            
                 </div>
             </div>
         </div>
         
         <div class="footer-copyright grey darken-3">
             <div class="container">
-            © 2014 Copyright Text
-            <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+            © 2020 Designed by Dev Dino
+            <a class="grey-text text-lighten-4 right" href="https://ngdino.github.io/">Need a Webpage</a>
             </div>
         </div>
     </footer>
