@@ -1,3 +1,7 @@
+*{
+    font-family: 'Cinzel', roboto;
+}
+
 @media only screen and (max-width: 600px){
     .parallax-container{
         width: 100%;
@@ -11,9 +15,38 @@
     .box-text2{
         font-size: 18px;
     }
-    
-    
+    #contact-card{
+        width: 100%;
+        justify-content: center;
+        margin-top: auto;
+        
+    }
+    .contact-title{
+        font-size: 32px;
+    }
+  
 }
+
+
+.long-text{
+    font-family: 'Roboto', sans-serif;
+}
+
+#email-icon{
+    margin-left: 5px;
+}
+
+.contact-div{
+    text-align: center;
+}
+
+.contact-icon{
+    position: relative;
+    top: 5px;
+    margin-right: 3px;
+}
+
+
 
 /* @media only screen and (min-width: 600px){
     #address{
@@ -23,6 +56,8 @@
         text-align: center;
     }
 } */
+
+
 
 nav{
     height: 65px;
@@ -37,10 +72,16 @@ nav{
     background-image: url('../images/home2.jpg');
     background-position: center;
     background-size: cover;
+    margin: -5px;
+    padding: 25px;
+    min-height: 800px;
 }
 
-#contact-panel{
-    background-color: rgba(0,0,0, 0.6)
+#contact-card{
+    background-color: rgba(0, 0, 0, 0.397);
+    color: white;
+
+    
 }
 .title-box{
     background-color: rgb(0,0,0); /* Fallback color */
@@ -93,7 +134,7 @@ body{
 
 #address{
     width: 100%;
-    font-weight: 500;
+    font-weight: normal;
     background-color: rgba(0,0,0, 0.4);
     text-align: center;
 }
@@ -110,11 +151,7 @@ body{
     font-weight: bold;
 }
 
-#price{
-    margin-top: 0;
-    padding: 0;
-    font-size: 26px;
-}
+
 
 .housedeets{
     margin: auto;
@@ -155,4 +192,5 @@ nav{
 
 .prop-card{
     height: 700px;
+    font-family: 'Roboto', sans-serif;
 }
