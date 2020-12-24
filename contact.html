@@ -57,7 +57,8 @@
         <div class="container">
             <div class="card-panel" id="contact-card">
                 <h2 class="contact-title">Contact Me</h2>
-                <form class="col s12">
+
+                <form class="col s12" id="contact-form" >
                     <div class="row">
                         <div class="col input-field s12 m6">
                             <input type="text" id="first-name">
@@ -70,17 +71,17 @@
                     </div>
                     <div class="row">
                         <div class="col input-field s12 m6">
-                            <input type="text" id="first-name">
+                            <input type="text" id="phone">
                             <label for="first-name" class="white-text">Phone Number</label>
                         </div>
                         <div class="col input-field s12 m6">
-                            <input type="email" id="email" class="validate">
+                            <input type="email" id="email" class="">
                             <label for="last-name" class="white-text">Email</label>
                         </div>
                     </div>
                     <div class="row">
                         <div class="input-field col s12">
-                            <select name="select" id="">
+                            <select name="select" id="reason">
                                 <option value="" disabled selected class="white-text" id="select-one">Select One</option>
                                 <option value="buy" >Buy</option>
                                 <option value="sell">Sell</option>
@@ -96,7 +97,11 @@
                         </div>
                     </div>
                 
+                    <button class="btn waves-effect waves-light" type="submit" id="submit">
+                        Submit 
+                        <i class="material-icons right">send</i>
 
+                    </button>
 
                 </form>
             </div>
@@ -143,6 +148,7 @@
         integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous">
     </script>
     <script src="./assets/javascript/script.js"></script>
+    <script src="./assets/javascript/send-email.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
 

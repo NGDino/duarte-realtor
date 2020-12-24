@@ -21,8 +21,8 @@ $(document).ready(function(){
 
     $('.tabs').tabs();
 
-    $('#textarea1').val('New Text');
-    M.textareaAutoResize($('#textarea1'));
+    $('#message').val('New Text');
+    M.textareaAutoResize($('#message'));
 });
 
 
