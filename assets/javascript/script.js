@@ -26,6 +26,8 @@ $(document).ready(function(){
 });
 
 
+
+//change this to hard coded.  Truncates reviews
 const url = 'https://www.zillow.com/webservice/ProReviews.htm?zws-id=X1-ZWz16vp8zpl8uj_85kuc&screenname=dduarte0&count=5&output=json'
 
 function getReviews(){
@@ -94,7 +96,7 @@ function showSlides(n) {
     var dots = document.getElementsByClassName("demo");
     var captionText = document.getElementById("caption");
     if (n > slides.length) {slideIndex = 1}
-    if (n < 1) {slideIndex = slides.length}
+    if (n < 1) {slideIndex = slides.length} 
     for (i = 0; i < slides.length; i++) {
         slides[i].style.display = "none";
 }
@@ -109,31 +111,15 @@ function showSlides(n) {
 
 //for model number 2
 
-// Next/previous controls
-function plusSlides2(n) {
-    showSlides2(slideIndex += n);
-}
 
-// Thumbnail image controls
-function currentSlide2(n) {
-    showSlides2(slideIndex = n);
-}
 
-function showSlides2(n) {
-    var i;
-    var slides = document.getElementsByClassName("mySlides2");
-    var dots = document.getElementsByClassName("demo2");
-    var captionText = document.getElementById("caption2");
-    if (n > slides.length) {slideIndex = 1}
-    if (n < 1) {slideIndex = slides.length}
-    for (i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";
-}
-    for (i = 0; i < dots.length; i++) {
-        dots[i].className = dots[i].className.replace(" active", "");
-    }
-    slides[slideIndex-1].style.display = "block";
-    dots[slideIndex-1].className += " active";
-    captionText.innerHTML = dots[slideIndex-1].alt;
-}
+
+// pull listins from API 
+
+//for loop ajax for each property number. 
+
+//get array with JSON info for both properties
+
+//call a function that will append each property
+
 

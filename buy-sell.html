@@ -42,8 +42,8 @@
         <h2 class="white-text contact-title" >
             Current Listings:
         </h2>
-        <div class="row">
-            <div class="col s12 m6">
+        <div class="row" id="current-properties">
+            <!-- <div class="col s12 m6">
                 <div class="card prop-card">
                     <div class="card-image">
                         <img src="./assets/images/brunswick.jpg">
@@ -54,8 +54,9 @@
                         <p class="long-text">This Beautifully modern Concord home is conveniently located near highway 4 and 242 and the 680/880/80 freeways and Port Chicago Highway and BART and Buchanan Field Airport ! Recent remodels include kitchen, living room and both front and backyards and Solar Panels ! and a nice Hot tub in the backyard as well for those cold Northern California Nights.... Short drives to Diablo Creek Golf Course, Solano Drive ins, California Grand Casino, Six Flags Hurricane Harbor and the Sunvalley Shopping Mall and the ALL NEW Luxury Veranda Shopping Center and Mt.Diablo and Downtown Walnut Creek Located in the Mt.Diablo Unified School District. Come see this tastefully remodeled turn key home ! A true gem of the East Bay Area!</p>
                     </div>
                 </div>
-            </div>
-            <div class="col s12 m6">
+            </div> -->
+
+            <!-- <div class="col s12 m6">
                 <div class="card prop-card">
                     <div class="card-image">
                         <img src="./assets/images/arroyo.jpg">
@@ -72,7 +73,9 @@
                             located to 880/680 highways and route 84. <br/> <br/> <br/> <br/> <br/> <br/></p>
                     </div>
                 </div>
-            </div>
+            </div> -->
+
+            
             <!-- Modal Structure -->
             <div id="modal1" class="modal">
                 <div class="row header ">
@@ -86,9 +89,11 @@
                     </div>
                 </div>
                 <!-- Container for the image gallery -->
+
                 <div class="container img-container z-depth-2">
         
                     <!-- Full-width images with number text -->
+
                     <div class="mySlides">
                         <div class="numbertext">1 / 4</div>
                         <img src="./assets/images/brunswick.jpg" style="width:100%">
@@ -119,6 +124,7 @@
                     </div>
         
                     <!-- Thumbnail images -->
+
                     <div class="row tumbnails z-depth-2">
                         <div class="column">
                             <img class="demo cursor" src="./assets/images/brunswick.jpg" style="width:100%"
@@ -203,134 +209,9 @@
             </div>
         </div>
 
-        <!-- model 2 -->
-        <div id="modal2" class="modal">
-            <div class="row header ">
-                <div class="col s12 ">
-                    <div class="">
-                        <h3 class="center model-title"> 1001 Murrieta Blvd Apt 104, <br/> Livermore, CA, 94550 </h3>
-                        <h4 class="center" id="price">$277,000</h4>
-                        <p class="details center"><i class="fas fa-bed"></i> : 1 bd | <i class="fas fa-bath"></i> : 1 ba 669sqft
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <!-- Container for the image gallery -->
-            <div class="container img-container2 z-depth-2">
-    
-                <!-- Full-width images with number text -->
-                <div class="mySlides2">
-                    <div class="numbertext2">1 / 4</div>
-                    <img src="./assets/images/arroyo.jpg" style="width:100%">
-                </div>
-    
-                <div class="mySlides2">
-                    <div class="numbertext2">2 / 4</div>
-                    <img src="./assets/images/arroyo-kitchen.jpg" style="width:100%">
-                </div>
-    
-                <div class="mySlides2">
-                    <div class="numbertext2">3 / 4</div>
-                    <img src="./assets/images/arroyo-bed.jpg" style="width:100%">
-                </div>
-    
-                <div class="mySlides2">
-                    <div class="numbertext2">4 / 4</div>
-                    <img src="./assets/images/arroyo-prop.jpg" style="width:100%">
-                </div>
-    
-                <!-- Next and previous buttons -->
-                <a class="prev" onclick="plusSlides2(-1)">&#10094;</a>
-                <a class="next" onclick="plusSlides2(1)">&#10095;</a>
-    
-                <!-- Image text -->
-                <div class="caption-container2">
-                    <p id="caption2"></p>
-                </div>
-    
-                <!-- Thumbnail images -->
-                <div class="row tumbnails2 z-depth-2">
-                    <div class="column">
-                        <img class="demo2 cursor" src="./assets/images/arroyo.jpg" style="width:100%"
-                            onclick="currentSlide2(1)" alt="Front of House">
-                    </div>
-                    <div class="column">
-                        <img class="demo2 cursor" src="./assets/images/arroyo-kitchen.jpg" style="width:100%"
-                            onclick="currentSlide2(2)" alt="Kitchen">
-                    </div>
-                    <div class="column">
-                        <img class="demo2 cursor" src="./assets/images/arroyo-bed.jpg" style="width:100%"
-                            onclick="currentSlide2(3)" alt="Interior">
-                    </div>
-                    <div class="column">
-                        <img class="demo2 cursor" src="./assets/images/arroyo-prop.jpg" style="width:100%"
-                            onclick="currentSlide2(4)" alt="Backyard">
-                    </div>
-                </div>
-            </div>
-    
-            <div class="container" id="home-info">
-                <div class="col s12">
-                    <ul class="tabs">
-                        <li class="tab col s4 teal-text"><a class="active" href="#overview">Overview</a></li>
-                        <li class="tab col s4 "><a href="#features">Features </a></li>
-                        <li class="tab col s4 "><a href="#neighborhood">Neighborhood</a></li>
-                    </ul>
-                </div>
-                <div id="overview" class="col s12">
-                    <h5>Overview</h5>
-                    <p>
-                        Located in Beautiful Livermore CA! Home backs up to the Arroyo Bike Trail !! Great investment and or starter home. Conveniently located about a mile away from the amazing downtown Livermore. Close by drive to Livermore Wine Country... I.E Wente Vineyards, Murrietas Well, Wood Family, Cuda Ridge and many others. Short drives to both Sandia and Lawrence Livermore National Labs. ACE train located in downtime Livermore. Centrally located to 880/680 highways and route 84.
-                    </p>
-                </div>
-                <div id="features" class="col s12">
-    
-                    <table class="striped">
-                        <tbody>
-                            <tr>
-                                <td><strong>Type:</strong> Condo</td>
-                                <td><strong>Parking: </strong> 1 covered</td>
-                            </tr>
-                            <tr>
-                                <td><strong>Year Built: </strong> 1972</td>
-                                <td><strong>HOA: </strong> 372 /mo</td>
-                            </tr>
-                            <tr>
-                                <td><strong>Heating/Cooling: </strong> Window/Wall</td>
-                                <td><strong>Lot: </strong> No Yard</td>
-                            </tr>
-                            <tr>
-                                <td><strong>Cooling: </strong> Central</td>
-                                <td><strong>Laundry: </strong> N/A</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-                <div id="neighborhood" class="col s12">
-                    <h5><strong>Schools</strong></h5>
-                    <ul>
-                        <li><strong>Joe Mitchell K-8:</strong> 0.2 mi</li>
-                        <li><strong>Granada High School 9-12:</strong> 0.4 mi</li>
-                    </ul>
-                    <h5><strong>Shopping</strong></h5>
-                    <ul>
-                        <li><strong>Safeway: </strong> 1.0 mi</li>
-                        <li><strong>Target: </strong> 1.0 mi</li>
-                        <li><strong>Lowes: </strong> 1.1 mi</li>
-                        <li><strong>Costco: </strong> 2.2 mi</li>
-                    </ul>
-    
-                    <h5><strong>Health</strong></h5>
-                    <ul>
-                        <li><strong>Kaiser: </strong> 1.4 mi</li>
-                        <li><strong>24 Hour Fitness: </strong> 2.0 mi</li>
-                    </ul>
-                </div>
-            <div class="modal-footer">
-            <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
-            </div>
-        </div>
-    </div>
+
+        <!-- issue with picture selector and the about property section -->
+        
         
     </div>
     
@@ -340,6 +221,7 @@
     crossorigin="anonymous">
 </script>
 <script src="./assets/javascript/script.js"></script>
+<script src= "./assets/javascript/properties.js"
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 </body>
 </html>
