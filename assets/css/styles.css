@@ -16,8 +16,8 @@
         font-size: 18px;
     }
     #contact-card{
-        width: 100%;
-        justify-content: center;
+        /* width: 100%;
+        justify-content: center; */
         margin-top: auto;
         
     }
@@ -30,6 +30,13 @@
 
 .long-text{
     font-family: 'Roboto', sans-serif;
+}
+.house-details{
+    font-size: 14px;
+    line-height: normal;
+}
+.price{
+    font-size: 1.5em;
 }
 
 #email-icon{

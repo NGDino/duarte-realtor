@@ -27,17 +27,19 @@ $(function (){
 function printProperty(houseDetails){
     $('#current-properties').append(`
         <div class="col s12 m6">
+        <a href='${houseDetails.rdc_web_url}' target="_blank">
             <div class="card prop-card">
                 <div class="card-image">
                     <img src="${houseDetails.photos[0].href}">
-                    <span class="card-title long-text" id="address">${houseDetails.address.line} <br/> Concord, CA 94520</span>
+                <span class="card-title long-text" id="address">${houseDetails.address.line} <br/> ${houseDetails.address.city}, ${houseDetails.address.state_code} ${houseDetails.address.postal_code}</span>
                     <a class="btn-floating halfway-fab waves-effect waves-light red modal-trigger" href="#modal1"><i class="material-icons">fullscreen</i></a>
                 </div>
                 <div class="card-content">
-                <h3>$${houseDetails.price}
-                    <p class="long-text">${houseDetails.description}</p>
+                <h3 class='price'>$${houseDetails.price}
+                    <p class="long-text house-details">${houseDetails.description}</p>
                 </div>
             </div>
+        </a>
         </div>
     `)
     
